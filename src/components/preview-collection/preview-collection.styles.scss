@@ -1,0 +1,27 @@
+.collection-preview {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+
+  .title {
+    font-size: 28px;
+    margin-bottom: 25px;
+  }
+
+  .preview {
+    display: flex;
+    justify-content: space-between;
+  }
+  // img{
+  //   width: 200px;
+  //   height: 300px;
+  //   margin: 10px;
+  //   border-radius: 4px;
+  //   box-shadow: 10px 10px 24px 4px gray;
+  // }
+  // img:hover{
+  //   cursor: pointer;
+  //   transform: scale(1.1);
+  //   transition: transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  // }
+}
